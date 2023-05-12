@@ -1,0 +1,12 @@
+.create-item-img-container:hover>.create-item-overlay {
+    background: rgb(240, 240, 240);
+    transition: 0.2s;
+}
+
+.create-item-img-container {
+    height: 400px;
+}
+
+img[src=""] {
+    display: none;
+}

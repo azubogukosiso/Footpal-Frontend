@@ -1,0 +1,29 @@
+.cat-link {
+    transition: 0.15s;
+}
+
+.cat-link:hover {
+    background: rgba(10, 10, 10, 0.3);
+}
+
+.item-container {
+    height: 400px;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+@media screen and (min-width: 768px) {
+    .item-container:hover>.overlay {
+        opacity: 1;
+        pointer-events: all;
+    }
+
+    .overlay {
+        background: rgba(0, 0, 0, 0.6);
+        opacity: 0;
+        pointer-events: none;
+        transition: 0.15s;
+    }
+}
